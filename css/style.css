@@ -7,7 +7,7 @@ body{
   width: 70%;
   margin: 0 auto;
 }
-
+/* Sezione header */
 .titolo {
   height: 200px;
   background: red;
@@ -19,15 +19,17 @@ body{
   border: 2px solid black;
   height: 50px;
 }
+/* Sezione main della pagina */
 #container{
   margin-top: 30px;
 }
-
+/* UTILITIES */
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
+/* prima colonna  */
 .col1 {
   background: green;
   width: calc(100% / 4);
@@ -35,6 +37,7 @@ body{
   border: 2px solid black;
   margin-right: 85px;
 }
+/* seconda colonna */
 .col2 {
   background: yellow;
   width: calc(100% / 3);
@@ -42,8 +45,8 @@ body{
   border: 2px solid black;
   margin-right: 97px;
 }
+/* terza colonna */
 .col3 {
-  /* background: purple; */
   width: calc(100% / 4);
   height: 640px;
 }
@@ -52,15 +55,15 @@ body{
 .col3 {
   float: left;
 }
-.row1,
-.row2,
-.row3 {
+/* Suddivisione colonna 3 in sezioni */
+.row {
   width: 100%;
   height: 200px;
   margin-bottom: 20px;
   border: 2px solid black;
   background: purple;
 }
+/* Sezione FOOTER */
 .main-footer {
   border: 3px solid black;
   margin-top: 30px;
