@@ -2,3 +2,58 @@
   box-sizing: border-box;
   margin: 0;
 }
+/* Centramento */
+body{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.titolo {
+  height: 200px;
+  background: red;
+  border: 3px solid black;
+}
+.nav-bar {
+  background: orange;
+  margin-top: 5px;
+  border: 2px solid black;
+  height: 50px;
+}
+#container{
+  margin-top: 30px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col1 {
+  background: green;
+  width: calc(100% / 3)
+  /* height: 400px; */
+}
+.col2 {
+  background: yellow;
+  width: calc(100% / 3)
+  /* height: 200px; */
+}
+.col3 {
+  background: purple;
+  width: calc(100% / 3)
+  /* height: 600px; */
+}
+.col1,
+.col2,
+.col3 {
+  float: left;
+  height: 800px;
+  border: 2px solid black;
+}
+.main-footer {
+  border: 3px solid black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background: violet;
+  height: 40px;
+}
