@@ -47,7 +47,7 @@ body{
 }
 /* terza colonna */
 .col3 {
-  width: calc(100% / 4);
+  width: 230px;
   height: 640px;
 }
 .col1,
