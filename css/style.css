@@ -31,6 +31,7 @@ body{
 .sottotitolo {
   color: white;
   font-size: 20px;
+  display: inline-block;
 }
 .logo {
   width: 400px;
