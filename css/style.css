@@ -32,22 +32,22 @@ body{
 /* prima colonna  */
 .col1 {
   background: green;
-  width: calc(100% / 4);
+  width: 20%;
   height: 400px;
   border: 2px solid black;
-  margin-right: 85px;
+  margin-right: 5%;
 }
 /* seconda colonna */
 .col2 {
   background: yellow;
-  width: calc(100% / 3);
+  width: 50%;
   height: 200px;
   border: 2px solid black;
-  margin-right: 97px;
+  margin-right: 5%;
 }
 /* terza colonna */
 .col3 {
-  width: 230px;
+  width: 20%;
   height: 640px;
 }
 .col1,
